@@ -66,5 +66,15 @@
 		<string>Roboto-Thin.ttf</string>
 		<string>Roboto-ThinItalic.ttf</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>We need your permission to use your camera to veryfy infomation</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need your permission to use your autio to veryfy</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>We need your permission to use your photo to veryfy infomation</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need your permission to use your photo to veryfy infomation</string>
 </dict>
 </plist>

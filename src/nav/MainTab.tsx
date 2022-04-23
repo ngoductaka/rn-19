@@ -51,6 +51,7 @@ export default function MainTab() {
           tabBarIcon: ({color}) => {
             return <Image assetName="iconTabExplore" tintColor={color} />;
           },
+          headerShown: false,
         }}
       />
       <Tab.Screen
