@@ -9,22 +9,48 @@ import {
   Button,
   Typography,
 } from 'react-native-ui-lib';
-import {ImageBackground, SafeAreaView, StyleSheet} from 'react-native';
+import { useDispatch, useSelector } from 'react-redux';
+import { ImageBackground, SafeAreaView, StyleSheet } from 'react-native';
 import Input from '../../components/TextField/Input';
 import InputPassword from '../../components/TextField/InputPassword';
-import {NavigationProp, useNavigation} from '@react-navigation/native';
-import {RootStackParamList} from '../../nav/RootStack';
+import { NavigationProp, useNavigation } from '@react-navigation/native';
+import { RootStackParamList } from '../../nav/RootStack';
+import {
+  requestLogin,
+  loginSuccess,
+  loginFail
+} from '../../redux/account.slice';
 const SignIn = () => {
+  const dispath = useDispatch();
+  const loading = useSelector((state: any) => state.account.loading)
+  const isLogin = useSelector((state: any) => state.account.isLogin)
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
+  const [email, setEmail] = React.useState('');
+  const [pass, setPass] = React.useState('');
+
+  const handleLogin = () => {
+    dispath(requestLogin())
+    fakeCallApi()
+      .then(data => {
+        dispath(loginSuccess(data));
+        navigation.navigate('MainTab');
+      })
+      .catch(err => {
+        dispath(loginFail(err))
+      })
+      .finally(() => {
+
+      })
+  }
   return (
     <View flex>
-      <ImageBackground source={Assets.icons.bg_SignIn} style={{flex: 1}}>
+      <ImageBackground source={Assets.icons.bg_SignIn} style={{ flex: 1 }}>
         <View flex-2 centerV>
           <Text white title2b marginL-40 marginB-20>
             SIGN IN
           </Text>
-          <Input assetName={'icon_email'} placeHolder="E-Mail" />
-          <InputPassword />
+          <Input {...{ value: email, onChangeText: setEmail }} assetName={'icon_email'} placeHolder="E-Mail" />
+          <InputPassword {...{ value: pass, onChangeText: setPass }} />
           <Text
             r14
             style={styles.txt_forgot}
@@ -35,12 +61,13 @@ const SignIn = () => {
           </Text>
           <View marginH-40>
             <Button
-              label="SIGN IN"
+              label={loading ? "Loading...": "SIGN IN"}
+              loading={loading}
               backgroundColor={Colors.primary}
               color={Colors.n3}
               labelStyle={Typography.b16}
               onPress={() => {
-                navigation.navigate('MainTab');
+                handleLogin()
               }}
             />
           </View>
@@ -94,3 +121,14 @@ const styles = StyleSheet.create({
     color: Colors.white,
   },
 });
+
+
+const fakeCallApi = () => {
+  return new Promise((res, rej) => {
+    setTimeout(() => {
+      res({
+        name: 'rm - 19'
+      })
+    }, 2 * 1000)
+  })
+}

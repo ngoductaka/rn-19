@@ -6,9 +6,11 @@ interface Props {
   assetName: string;
   placeHolder: string;
   keyboardType?: KeyboardTypeOptions | undefined;
+  value?: string,
+  onChangeText?: any, 
 }
 
-const Input = ({assetName, placeHolder, keyboardType}: Props) => {
+const Input = ({assetName, placeHolder, keyboardType, value, onChangeText}: Props) => {
   return (
     <View style={styles.container}>
       <View width={24} height={24} center marginR-16>
@@ -19,6 +21,7 @@ const Input = ({assetName, placeHolder, keyboardType}: Props) => {
         placeholderTextColor={'#9F9F9F'}
         style={styles.input}
         keyboardType={keyboardType}
+        {...{value, onChangeText}}
         // showSoftInputOnFocus={false}
       />
     </View>

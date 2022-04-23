@@ -4,9 +4,10 @@ import {View, Colors, Image, TouchableOpacity} from 'react-native-ui-lib';
 
 interface Props {
   placeHolder?: string;
+  value?: string, onChangeText?: any
 }
 
-const InputPassword = ({placeHolder = 'Password'}: Props) => {
+const InputPassword = ({placeHolder = 'Password',  value, onChangeText}: Props) => {
   const [secure, setSecure] = React.useState<boolean>(true);
 
   return (
@@ -19,6 +20,7 @@ const InputPassword = ({placeHolder = 'Password'}: Props) => {
         placeholderTextColor={'#9F9F9F'}
         style={styles.input}
         secureTextEntry={secure}
+        {...{ value, onChangeText }}
       />
       <TouchableOpacity
         style={{width: 24, height: 24}}
