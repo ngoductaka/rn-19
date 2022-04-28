@@ -24,18 +24,15 @@ const RootStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={account.isLogin ? "MainTab" : 'SignIn'}>
-        {
-          account.isLogin ? (
-            <Stack.Screen
-              name="MainTab"
-              component={MainTab}
-              options={{
-                headerShown: false,
-              }}
-            />
-          ) : (
-            <>
-              {/* 
+
+        <Stack.Screen
+          name="MainTab"
+          component={MainTab}
+          options={{
+            headerShown: false,
+          }}
+        />
+        {/* 
               <Stack.Screen
                 name="MainTab"
                 component={MainTab}
@@ -43,55 +40,51 @@ const RootStack = () => {
                   headerShown: false,
                 }}
               /> */}
-              <Stack.Screen
-                name="Throughwalk"
-                component={Throughwalk}
-                options={{
-                  headerShown: false,
-                }}
-              />
-              <Stack.Screen
-                name="SignIn"
-                component={SignIn}
-                options={{
-                  headerShown: false,
-                }}
-              />
-              <Stack.Screen
-                name="SignUp"
-                component={SignUp}
-                options={{
-                  headerShown: false,
-                }}
-              />
-              <Stack.Screen
-                name="ForgotPassword"
-                component={ForgotPassword}
-                options={{
-                  headerBackTitleVisible: false,
-                  headerTitle: '',
-                  headerTintColor: '#FFF',
-                  headerStyle: {
-                    backgroundColor: '#0E0B1F',
-                  },
-                }}
-              />
-              <Stack.Screen
-                name="VerifyPhone"
-                component={VerifyPhone}
-                options={{
-                  headerBackTitleVisible: false,
-                  headerTitle: '',
-                  headerTintColor: '#FFF',
-                  headerStyle: {
-                    backgroundColor: '#0E0B1F',
-                  },
-                }}
-              />
-            </>
-          )
-        }
-
+        <Stack.Screen
+          name="Throughwalk"
+          component={Throughwalk}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="SignIn"
+          component={SignIn}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="SignUp"
+          component={SignUp}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="ForgotPassword"
+          component={ForgotPassword}
+          options={{
+            headerBackTitleVisible: false,
+            headerTitle: '',
+            headerTintColor: '#FFF',
+            headerStyle: {
+              backgroundColor: '#0E0B1F',
+            },
+          }}
+        />
+        <Stack.Screen
+          name="VerifyPhone"
+          component={VerifyPhone}
+          options={{
+            headerBackTitleVisible: false,
+            headerTitle: '',
+            headerTintColor: '#FFF',
+            headerStyle: {
+              backgroundColor: '#0E0B1F',
+            },
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
