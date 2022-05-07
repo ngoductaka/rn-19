@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* RN19Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RN19Tests.m */; };
+		00E356F31AD99517003FC87E /* learreactnativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* learreactnativeTests.m */; };
 		080AD24682984AD0B486A354 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EA6BEFFC59141F7841CE3B1 /* Roboto-MediumItalic.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -17,13 +17,13 @@
 		3F08088A24DE43DD8AD4C206 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F1641D9A4BC430EA763863A /* Roboto-Bold.ttf */; };
 		47EB32673F364A05BA557A9A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0358F4C7B604E458C0DE7E0 /* Roboto-Thin.ttf */; };
 		49E90251E43949F9AE24649F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52ADBD2A6E5742BA83371C7E /* Roboto-BoldItalic.ttf */; };
-		599843C16CA36CB15E6B7B6F /* libPods-RN19.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F8D892F15200E9682A9567 /* libPods-RN19.a */; };
+		599843C16CA36CB15E6B7B6F /* libPods-learreactnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F8D892F15200E9682A9567 /* libPods-learreactnative.a */; };
 		68605D04B8F249928A65A137 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC4808092B2145D2944E2D85 /* Roboto-ThinItalic.ttf */; };
 		6B0C76A9784B490BA12661E7 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34D1EE7D38549839E8F1D8F /* Roboto-Black.ttf */; };
 		6C3551C957D1491D932F6081 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F1C13668E7344929129E0E3 /* Roboto-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		81CDFD5ACF434AA4ABC6B2F3 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAFEAA66C85940989BE0C1BE /* Roboto-LightItalic.ttf */; };
-		922BB9C3D018B6014429FA5E /* libPods-RN19-RN19Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 466A82C31B1AEF9CF65EA4BC /* libPods-RN19-RN19Tests.a */; };
+		922BB9C3D018B6014429FA5E /* libPods-learreactnative-learreactnativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 466A82C31B1AEF9CF65EA4BC /* libPods-learreactnative-learreactnativeTests.a */; };
 		961F7F96C8EB4467B6B16603 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65CD621EFB8D4A949AB22A01 /* Roboto-Italic.ttf */; };
 		DCDCDFF8A05A483E9E0BB305 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 031F2754D5AB4067AD337EC6 /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -34,39 +34,39 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = RN19;
+			remoteInfo = learreactnative;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* RN19Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RN19Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* learreactnativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learreactnativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* RN19Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RN19Tests.m; sourceTree = "<group>"; };
-		031F2754D5AB4067AD337EC6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* RN19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RN19.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RN19/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RN19/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RN19/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RN19/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RN19/main.m; sourceTree = "<group>"; };
-		1950D6DB01ED8A098A99EC73 /* Pods-RN19-RN19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN19-RN19Tests.debug.xcconfig"; path = "Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		19F8D892F15200E9682A9567 /* libPods-RN19.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN19.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3381E60AC03F438BA0666456 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
-		3EA6BEFFC59141F7841CE3B1 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
-		466A82C31B1AEF9CF65EA4BC /* libPods-RN19-RN19Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN19-RN19Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52ADBD2A6E5742BA83371C7E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
-		65CD621EFB8D4A949AB22A01 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
-		6AABFA2F858DB8A9FC016F5C /* Pods-RN19-RN19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN19-RN19Tests.release.xcconfig"; path = "Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN19/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8F1641D9A4BC430EA763863A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		8F1C13668E7344929129E0E3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		A0358F4C7B604E458C0DE7E0 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
-		A34D1EE7D38549839E8F1D8F /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		B0B3933E761080BC2A750284 /* Pods-RN19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN19.debug.xcconfig"; path = "Target Support Files/Pods-RN19/Pods-RN19.debug.xcconfig"; sourceTree = "<group>"; };
-		CAFEAA66C85940989BE0C1BE /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		D74217AE64CD496EBBD3802D /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		E452BA7447C463C9E8B3CDBA /* Pods-RN19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN19.release.xcconfig"; path = "Target Support Files/Pods-RN19/Pods-RN19.release.xcconfig"; sourceTree = "<group>"; };
-		EC4808092B2145D2944E2D85 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* learreactnativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learreactnativeTests.m; sourceTree = "<group>"; };
+		031F2754D5AB4067AD337EC6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* learreactnative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learreactnative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = learreactnative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = learreactnative/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = learreactnative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = learreactnative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = learreactnative/main.m; sourceTree = "<group>"; };
+		1950D6DB01ED8A098A99EC73 /* Pods-learreactnative-learreactnativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learreactnative-learreactnativeTests.debug.xcconfig"; path = "Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19F8D892F15200E9682A9567 /* libPods-learreactnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-learreactnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3381E60AC03F438BA0666456 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3EA6BEFFC59141F7841CE3B1 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		466A82C31B1AEF9CF65EA4BC /* libPods-learreactnative-learreactnativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-learreactnative-learreactnativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ADBD2A6E5742BA83371C7E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		65CD621EFB8D4A949AB22A01 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		6AABFA2F858DB8A9FC016F5C /* Pods-learreactnative-learreactnativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learreactnative-learreactnativeTests.release.xcconfig"; path = "Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = learreactnative/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F1641D9A4BC430EA763863A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		8F1C13668E7344929129E0E3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		A0358F4C7B604E458C0DE7E0 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		A34D1EE7D38549839E8F1D8F /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		B0B3933E761080BC2A750284 /* Pods-learreactnative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learreactnative.debug.xcconfig"; path = "Target Support Files/Pods-learreactnative/Pods-learreactnative.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFEAA66C85940989BE0C1BE /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		D74217AE64CD496EBBD3802D /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E452BA7447C463C9E8B3CDBA /* Pods-learreactnative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learreactnative.release.xcconfig"; path = "Target Support Files/Pods-learreactnative/Pods-learreactnative.release.xcconfig"; sourceTree = "<group>"; };
+		EC4808092B2145D2944E2D85 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				922BB9C3D018B6014429FA5E /* libPods-RN19-RN19Tests.a in Frameworks */,
+				922BB9C3D018B6014429FA5E /* libPods-learreactnative-learreactnativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,20 +83,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599843C16CA36CB15E6B7B6F /* libPods-RN19.a in Frameworks */,
+				599843C16CA36CB15E6B7B6F /* libPods-learreactnative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* RN19Tests */ = {
+		00E356EF1AD99517003FC87E /* learreactnativeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* RN19Tests.m */,
+				00E356F21AD99517003FC87E /* learreactnativeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = RN19Tests;
+			path = learreactnativeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -107,7 +107,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* RN19 */ = {
+		13B07FAE1A68108700A75B9A /* learreactnative */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -117,15 +117,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = RN19;
+			name = learreactnative;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				19F8D892F15200E9682A9567 /* libPods-RN19.a */,
-				466A82C31B1AEF9CF65EA4BC /* libPods-RN19-RN19Tests.a */,
+				19F8D892F15200E9682A9567 /* libPods-learreactnative.a */,
+				466A82C31B1AEF9CF65EA4BC /* libPods-learreactnative-learreactnativeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,7 +147,6 @@
 				EC4808092B2145D2944E2D85 /* Roboto-ThinItalic.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -160,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* RN19 */,
+				13B07FAE1A68108700A75B9A /* learreactnative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* RN19Tests */,
+				00E356EF1AD99517003FC87E /* learreactnativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				95F52411D4C5E2B9CE3F5A43 /* Pods */,
@@ -176,8 +175,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* RN19.app */,
-				00E356EE1AD99517003FC87E /* RN19Tests.xctest */,
+				13B07F961A680F5B00A75B9A /* learreactnative.app */,
+				00E356EE1AD99517003FC87E /* learreactnativeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,21 +184,20 @@
 		95F52411D4C5E2B9CE3F5A43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B0B3933E761080BC2A750284 /* Pods-RN19.debug.xcconfig */,
-				E452BA7447C463C9E8B3CDBA /* Pods-RN19.release.xcconfig */,
-				1950D6DB01ED8A098A99EC73 /* Pods-RN19-RN19Tests.debug.xcconfig */,
-				6AABFA2F858DB8A9FC016F5C /* Pods-RN19-RN19Tests.release.xcconfig */,
+				B0B3933E761080BC2A750284 /* Pods-learreactnative.debug.xcconfig */,
+				E452BA7447C463C9E8B3CDBA /* Pods-learreactnative.release.xcconfig */,
+				1950D6DB01ED8A098A99EC73 /* Pods-learreactnative-learreactnativeTests.debug.xcconfig */,
+				6AABFA2F858DB8A9FC016F5C /* Pods-learreactnative-learreactnativeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* RN19Tests */ = {
+		00E356ED1AD99517003FC87E /* learreactnativeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RN19Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "learreactnativeTests" */;
 			buildPhases = (
 				589AF34012B9D53CF13F4A11 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -213,14 +211,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = RN19Tests;
-			productName = RN19Tests;
-			productReference = 00E356EE1AD99517003FC87E /* RN19Tests.xctest */;
+			name = learreactnativeTests;
+			productName = learreactnativeTests;
+			productReference = 00E356EE1AD99517003FC87E /* learreactnativeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* RN19 */ = {
+		13B07F861A680F5B00A75B9A /* learreactnative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RN19" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "learreactnative" */;
 			buildPhases = (
 				03218CA6D16FBFB538FB9B18 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,9 +233,9 @@
 			);
 			dependencies = (
 			);
-			name = RN19;
-			productName = RN19;
-			productReference = 13B07F961A680F5B00A75B9A /* RN19.app */;
+			name = learreactnative;
+			productName = learreactnative;
+			productReference = 13B07F961A680F5B00A75B9A /* learreactnative.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RN19" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "learreactnative" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,8 +268,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* RN19 */,
-				00E356ED1AD99517003FC87E /* RN19Tests */,
+				13B07F861A680F5B00A75B9A /* learreactnative */,
+				00E356ED1AD99517003FC87E /* learreactnativeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,7 +335,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RN19-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-learreactnative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,15 +348,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		26F52E0F8F45BE0BBB07C5F6 /* [CP] Copy Pods Resources */ = {
@@ -367,15 +365,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19/Pods-RN19-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative/Pods-learreactnative-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19/Pods-RN19-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative/Pods-learreactnative-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN19/Pods-RN19-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learreactnative/Pods-learreactnative-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		589AF34012B9D53CF13F4A11 /* [CP] Check Pods Manifest.lock */ = {
@@ -393,7 +391,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RN19-RN19Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-learreactnative-learreactnativeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,15 +404,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19/Pods-RN19-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative/Pods-learreactnative-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19/Pods-RN19-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative/Pods-learreactnative-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN19/Pods-RN19-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learreactnative/Pods-learreactnative-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A60ABF7737D389615824336F /* [CP] Embed Pods Frameworks */ = {
@@ -423,15 +421,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RN19-RN19Tests/Pods-RN19-RN19Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learreactnative-learreactnativeTests/Pods-learreactnative-learreactnativeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -460,7 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* RN19Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* learreactnativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +476,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* RN19 */;
+			target = 13B07F861A680F5B00A75B9A /* learreactnative */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,14 +484,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1950D6DB01ED8A098A99EC73 /* Pods-RN19-RN19Tests.debug.xcconfig */;
+			baseConfigurationReference = 1950D6DB01ED8A098A99EC73 /* Pods-learreactnative-learreactnativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = RN19Tests/Info.plist;
+				INFOPLIST_FILE = learreactnativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -507,17 +505,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RN19.app/RN19";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learreactnative.app/learreactnative";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AABFA2F858DB8A9FC016F5C /* Pods-RN19-RN19Tests.release.xcconfig */;
+			baseConfigurationReference = 6AABFA2F858DB8A9FC016F5C /* Pods-learreactnative-learreactnativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = RN19Tests/Info.plist;
+				INFOPLIST_FILE = learreactnativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -531,19 +529,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RN19.app/RN19";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learreactnative.app/learreactnative";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0B3933E761080BC2A750284 /* Pods-RN19.debug.xcconfig */;
+			baseConfigurationReference = B0B3933E761080BC2A750284 /* Pods-learreactnative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = RN19/Info.plist;
+				INFOPLIST_FILE = learreactnative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,7 +553,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RN19;
+				PRODUCT_NAME = learreactnative;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -563,12 +562,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E452BA7447C463C9E8B3CDBA /* Pods-RN19.release.xcconfig */;
+			baseConfigurationReference = E452BA7447C463C9E8B3CDBA /* Pods-learreactnative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = RN19/Info.plist;
+				INFOPLIST_FILE = learreactnative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -579,7 +579,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = RN19;
+				PRODUCT_NAME = learreactnative;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -711,7 +711,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RN19Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "learreactnativeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -720,7 +720,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RN19" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "learreactnative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -729,7 +729,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "RN19" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "learreactnative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

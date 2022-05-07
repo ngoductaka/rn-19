@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RN19.app"
-               BlueprintName = "RN19"
-               ReferencedContainer = "container:RN19.xcodeproj">
+               BuildableName = "learreactnative.app"
+               BlueprintName = "learreactnative"
+               ReferencedContainer = "container:learreactnative.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RN19Tests.xctest"
-               BlueprintName = "RN19Tests"
-               ReferencedContainer = "container:RN19.xcodeproj">
+               BuildableName = "learreactnativeTests.xctest"
+               BlueprintName = "learreactnativeTests"
+               ReferencedContainer = "container:learreactnative.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RN19.app"
-            BlueprintName = "RN19"
-            ReferencedContainer = "container:RN19.xcodeproj">
+            BuildableName = "learreactnative.app"
+            BlueprintName = "learreactnative"
+            ReferencedContainer = "container:learreactnative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RN19.app"
-            BlueprintName = "RN19"
-            ReferencedContainer = "container:RN19.xcodeproj">
+            BuildableName = "learreactnative.app"
+            BlueprintName = "learreactnative"
+            ReferencedContainer = "container:learreactnative.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

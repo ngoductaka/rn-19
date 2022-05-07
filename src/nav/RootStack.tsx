@@ -7,6 +7,7 @@ import SignUp from '../screens/signUp';
 import ForgotPassword from '../screens/forgotPassword';
 import VerifyPhone from '../screens/verify';
 import MainTab from './MainTab';
+import C from '../screens/C';
 
 export type RootStackParamList = {
   Throughwalk: undefined;
@@ -57,18 +58,25 @@ const RootStack = () => {
         <Stack.Screen
           name="VerifyPhone"
           component={VerifyPhone}
-          options={{
-            headerBackTitleVisible: false,
-            headerTitle: '',
-            headerTintColor: '#FFF',
-            headerStyle: {
-              backgroundColor: '#0E0B1F',
-            },
-          }}
+          // options={{
+          //   headerBackTitleVisible: false,
+          //   headerTitle: '',
+          //   headerTintColor: '#FFF',
+          //   headerStyle: {
+          //     backgroundColor: '#0E0B1F',
+          //   },
+          // }}
         />
         <Stack.Screen
           name="MainTab"
           component={MainTab}
+          options={{
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen
+          name="C"
+          component={C}
           options={{
             headerShown: false,
           }}

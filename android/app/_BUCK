@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.rn19",
+    package = "com.dnd.app.learnreact",
 )
 
 android_resource(
     name = "res",
-    package = "com.rn19",
+    package = "com.dnd.app.learnreact",
     res = "src/main/res",
 )
 

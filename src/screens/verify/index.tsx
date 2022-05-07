@@ -1,14 +1,40 @@
-import {Animated, Dimensions, StyleSheet} from 'react-native';
+import { Animated, Dimensions, StyleSheet, Pressable } from 'react-native';
 import React from 'react';
-import {View} from 'react-native-ui-lib';
+import { View, Text } from 'react-native-ui-lib';
 import EnterPhone from './components/EnterPhone';
 import EnterCode from './components/EnterCode';
+import { useNavigation } from '@react-navigation/native';
 const width_screen = Dimensions.get('window').width;
-const VerifyPhone = () => {
+const VerifyPhone = (props) => {
+
   const translateX = new Animated.Value(0);
+  const navigation = useNavigation();
+  React.useEffect(() => {
+
+    navigation.setOptions({ title: 'loading...' })
+    console.log('B === did mount', props.route.params);
+    return () => {
+      console.log("B ==== unmount")
+    }
+  }, []);
+  return (
+    <View flex center>
+      <Text>Screen B</Text>
+      <Pressable onPress={() => {
+        navigation.setOptions({ title: 'Updated!' })
+        // navigation.goBack();
+        // navigation.navigate("C");
+
+        // VerifyPhone
+      }}>
+        <Text>go to C</Text>
+      </Pressable>
+    </View>
+  )
+
   return (
     <View flex backgroundColor="#0E0B1F">
-      <Animated.View
+      {/* <Animated.View
         style={{
           flexDirection: 'row',
           width: width_screen * 2,
@@ -24,7 +50,7 @@ const VerifyPhone = () => {
           }}
         />
         <EnterCode />
-      </Animated.View>
+      </Animated.View> */}
     </View>
   );
 };

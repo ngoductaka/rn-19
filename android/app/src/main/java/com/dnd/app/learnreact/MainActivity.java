@@ -1,4 +1,4 @@
-package com.rn19;
+package com.dnd.app.learnreact;
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 
@@ -10,7 +10,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "RN19";
+    return "learreactnative";
   }
   @Override
   protected void onCreate(Bundle savedInstanceState) {

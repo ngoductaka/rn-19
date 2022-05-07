@@ -9,16 +9,34 @@ import {
   Button,
   Typography,
 } from 'react-native-ui-lib';
-import {ImageBackground, SafeAreaView, StyleSheet} from 'react-native';
+import { ImageBackground, SafeAreaView, StyleSheet, Pressable } from 'react-native';
 import Input from '../../components/TextField/Input';
 import InputPassword from '../../components/TextField/InputPassword';
-import {NavigationProp, useNavigation} from '@react-navigation/native';
-import {RootStackParamList} from '../../nav/RootStack';
+import { NavigationProp, useNavigation } from '@react-navigation/native';
+import { RootStackParamList } from '../../nav/RootStack';
+
 const SignIn = () => {
+
+  React.useEffect(() => {
+    console.log('B === did mount');
+    return () => {
+      console.log("B ==== unmount")
+    }
+  }, []);
+
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
   return (
     <View flex>
-      <ImageBackground source={Assets.icons.bg_SignIn} style={{flex: 1}}>
+      <Text>Screen B</Text>
+      <Pressable onPress={() => {
+        // navigation.goBack();
+        navigation.navigate("C");
+
+        // VerifyPhone
+      }}>
+        <Text>go to a</Text>
+      </Pressable>
+      {/* <ImageBackground source={Assets.icons.bg_SignIn} style={{flex: 1}}>
         <View flex-2 centerV>
           <Text white title2b marginL-40 marginB-20>
             SIGN IN
@@ -78,7 +96,7 @@ const SignIn = () => {
             </Text>
           </Text>
         </SafeAreaView>
-      </ImageBackground>
+      </ImageBackground> */}
     </View>
   );
 };
