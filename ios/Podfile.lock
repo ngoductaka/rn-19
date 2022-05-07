@@ -274,7 +274,7 @@ PODS:
   - React-jsinspector (0.67.2)
   - React-logger (0.67.2):
     - glog
-  - react-native-image-picker (4.7.3):
+  - react-native-image-picker (4.8.2):
     - React-Core
   - react-native-netinfo (8.0.0):
     - React-Core
@@ -597,7 +597,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 52beb652bbc61201bd70cbe4f0b8edb607e8da4f
   React-jsinspector: 595f76eba2176ebd8817a1fffd47b84fbdab9383
   React-logger: 23de8ea0f44fa00ee77e96060273225607fd4d78
-  react-native-image-picker: 4e6008ad8c2321622affa2c85432a5ebd02d480c
+  react-native-image-picker: 1ccfc97709f680a7167ccb758c32466b466c96e2
   react-native-netinfo: ba4ea50d836c60580c59079233c400753fe5bcb6
   react-native-safe-area-context: eec048ba481a7ec7b1bf9d7b7a78fb1103f4806d
   react-native-video: a4c2635d0802f983594b7057e1bce8f442f0ad28

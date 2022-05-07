@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, TextInput, Dimensions } from 'react-native';
-import { View, Text, Button, TouchableOpacity } from 'react-native-ui-lib';
+import { View, Text, Button, TouchableOpacity, Image } from 'react-native-ui-lib';
 import { useFocusEffect, useNavigation, useIsFocused } from '@react-navigation/native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
+import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 
 
 const { height, width } = Dimensions.get('window');
@@ -12,6 +13,8 @@ const Explore = () => {
 
   const navigation = useNavigation();
   const isForcus = useIsFocused();
+
+  const [listImg, setListImg] = useState([]);
 
   // const dispatch = useDispatch();
   // const state = useSelector((state) => state);
@@ -82,11 +85,32 @@ const Explore = () => {
       {/* </KeyboardAwareScrollView> */}
       <Text>Screen A</Text>
       <Pressable onPress={() => {
+        console.log('asdfasdfasf');
+        // You can also use as a promise without 'callback':
+        launchImageLibrary({
+          selectionLimit: 2,
+        }, (params) => {
+          setListImg(params.assets)
+        })
+        // launchCamera({});
         // VerifyPhone
-        navigation.navigate('VerifyPhone', { from: 'explore' });
+        // navigation.navigate('VerifyPhone', { from: 'explore' });
       }}>
-        <Text>go to B</Text>
+        <Text>Open camera</Text>
       </Pressable>
+      <View>
+        {
+          listImg.map((img, index) => {
+            return (
+              <Image
+                key={index + ''}
+                style={{ height: 200, width: 200 }}
+                source={{ uri: img.uri }}
+              />
+            )
+          })
+        }
+      </View>
 
     </View>
   )
