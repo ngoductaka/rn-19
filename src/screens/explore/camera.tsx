@@ -9,7 +9,7 @@ import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 
 
 const { height, width } = Dimensions.get('window');
-const Explore = () => {
+const Camera = () => {
 
   const navigation = useNavigation();
   const isForcus = useIsFocused();
@@ -94,7 +94,7 @@ const Explore = () => {
         })
         // launchCamera({});
         // VerifyPhone
-        // navigation.navigate('VerifyPhone', { from: 'explore' });
+        // navigation.navigate('VerifyPhone', { from: 'Camera' });
       }}>
         <Text>Open camera</Text>
       </Pressable>
@@ -116,7 +116,7 @@ const Explore = () => {
   )
 };
 
-export default Explore;
+export default Camera;
 
 const styles = StyleSheet.create({
   input: {
