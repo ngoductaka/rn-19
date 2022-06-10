@@ -35,7 +35,6 @@ const account = createSlice({
         loginFail(state, action) {
             state.loading = false;
             state.errors = action.payload;
-
         }
     }
 });
